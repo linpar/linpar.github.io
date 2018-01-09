@@ -1,0 +1,104 @@
+@import url(//fonts.googleapis.com/css?family=Nixie+One);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+@import url(//fonts.googleapis.com/css?family=Titillium+Web:400,300,200);
+html {
+    height: 100%;
+}
+body {
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight:300;
+    height: 100%;
+}
+h1 {
+    font-size:70px;
+    font-weight: 600;
+    font-family:'Nixie One', cursive
+}
+h2 {
+    font-size:50px;
+    font-weight: 600;
+}
+h3 {
+    font-size:30px;
+    font-weight: 600;
+}
+p {
+    font-size:17px;
+    margin:10px 0;
+    line-height:22px;
+    color:#333
+}
+a, a:visited {
+    color:#3F8BC7;
+    text-decoration:none
+}
+a:active, a:hover {
+    color:#1777C4
+}
+.text-center {
+    text-align:center
+}
+.no-margin {
+    margin:0
+}
+.less-margin {
+    margin:10px 0
+}
+#top {
+    height:100%;
+    background:url("../../images/back.jpg") no-repeat center center fixed;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../img/back.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../img/back.jpg', sizingMethod='scale')";
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#FFF;
+    font-family:'Nixie One', cursive
+}
+#top .top-inner {
+    padding:100px
+}
+.name {
+    color:#ABABAB;
+    font-weight:400
+}
+.social {
+    margin-right:25px;
+    font-size:50px!important;
+    color:#A2ACB4;
+    text-align:center
+}
+.photo-credits {
+    font-size:10px;
+    font-family:'Source Sans Pro', sans-serif;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    color:#FFF
+}
+.photo-credits a {
+    color:#FFF;
+    text-decoration:none
+}
+.heading {
+    color:#303030
+}
+#sections .section {
+    margin-bottom:100px
+}
+#sections .section .entry {
+    width:80%;
+    margin:20px auto;
+    text-align:justify
+}
+#sections .section h3 {
+    font-weight:100;
+    text-align:left;
+    font-family:'Titillium Web', sans-serif;
+    font-size:45px;
+    margin-bottom:0
+}
+#sections .section p.timeframe {
+    font-weight:400
+}
